@@ -6,6 +6,7 @@
 目标接口（Target）
 待适配的类（Adaptee）
 适配器（Adapter）
+
 两种实现方式：
 类适配器：使用多继承
 对象适配器：使用组合
@@ -27,6 +28,8 @@
 
 
 from abc import abstractmethod, ABCMeta
+
+# 目标：我要进行支付
 
 # 目标接口
 class Payment(metaclass=ABCMeta):
