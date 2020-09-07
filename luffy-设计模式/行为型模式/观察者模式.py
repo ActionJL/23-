@@ -31,7 +31,7 @@ class Notice:
     def __init__(self):
         self.observer = []
 
-    # 订阅
+    # 有哪些订阅
     def attach(self, obs):
         self.observer.append(obs)
 
